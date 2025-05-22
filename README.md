@@ -1,47 +1,55 @@
-# Numerical Methods Root Finder
+# Numerical Methods Graphing Tool
 
-A Python application that visualizes and solves equations using various numerical methods for finding roots. Built with Tkinter and Matplotlib.
+A Python application for visualizing and solving equations using various numerical methods.
 
 ## Features
-
-- Multiple root-finding methods:
+- Graphical visualization of functions
+- Multiple numerical methods for root finding:
   - Bisection Method
   - Secant Method
   - Newton-Raphson Method
   - Regula Falsi Method
   - Incremental Method
-  - Graphical Method
-- Interactive visualization of the solution process
+- Interactive GUI with draggable annotations
 - Support for both equation and data point inputs
-- Draggable annotations
 - System of equations solver
-- Beautiful dark theme UI
 
 ## Requirements
+- Python 3.7 or higher
+- Required packages listed in `requirements.txt`
 
+## Installation
+1. Clone this repository:
 ```bash
-pip install numpy matplotlib sympy scipy ttkthemes
+git clone https://github.com/YOUR_USERNAME/graphing.git
+cd graphing
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
-
-1. Run the application:
+Run the application:
 ```bash
 python graph.py
 ```
 
-2. Enter your equation in the input box (e.g., `x**3 - x - 2`)
-3. Set the lower and upper limits for the search interval
-4. Choose a method from the sidebar
-5. View the results in the graph and table
+### Input Format
+- Enter equations using Python syntax
+- Examples:
+  - `x**3 - x - 2`
+  - `sqrt(x)`
+  - `sin(x)`
+  - `exp(x)`
 
-## Examples
-
-- `x**3 - x - 2`
-- `sqrt(x) - 2`
-- `sin(x) - 0.5`
-- `exp(x) - 2`
+### Features
+- Set lower and upper limits for the graph
+- Adjust step size for calculations
+- Choose between different numerical methods
+- View detailed iteration tables
+- Drag and reposition annotations
 
 ## License
-
 MIT License 
